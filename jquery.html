@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="william.jpg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#hide").click(function(){
+          $("h1").hide();
+        });
+        $("#show").click(function(){
+          $("h1").show();
+        });
+      });
+    </script>
+</head>
+<body>
+<div class="icon-bar">
+    <a class="active" href="index.html"><i class="fa fa-home"></i></a>
+</div>
+<h1>Im a magic JQuery component, click on the "Hide" button and I will disappear.</h1>
+<br>
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+</body>
+<script src="https://kit.fontawesome.com/92bcfa0729.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles.css">
+
+</html>
