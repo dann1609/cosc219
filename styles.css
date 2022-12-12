@@ -22,3 +22,11 @@
 .active {
     background-color: #04AA6D; /* Add an active/current color */
 }
+
+body {
+    margin: 0;
+}
+
+.section {
+    margin: 2rem;
+}
